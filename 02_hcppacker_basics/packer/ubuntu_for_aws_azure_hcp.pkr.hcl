@@ -90,7 +90,7 @@ source "azure-arm" "azure-ubuntu-tokyo" {
 build {
   # 変更箇所
   hcp_packer_registry {
-    bucket_name = "packer-intro_ubuntu"
+    bucket_name = "packer-intro-ubuntu"
     description = <<EOT
 はじめてのPackerシリーズ用のImage Bucketです。
   EOT
